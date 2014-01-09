@@ -12,7 +12,7 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body { }
 
 body {
   background-color: #fff;
@@ -32,6 +32,30 @@ p { margin: 1em 0; }
 a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
+
+/*****************************************************************************/
+/*
+/* Soon
+/*
+/*****************************************************************************/
+
+.social {
+  margin-top: 50px;
+}
+
+.social a {
+  padding: 9px;
+  text-decoration: none;
+}
+
+.social a img {
+  width: 50px;
+  opacity: 1;
+}
+
+.social a:hover img {
+  opacity: 0.8;
+}
 
 /*****************************************************************************/
 /*
